@@ -1,28 +1,28 @@
 class Qlang < Formula
   desc "A small, readable, statically typed language with a built-in web server"
   homepage "https://github.com/quenti77/qlang"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/quenti77/qlang/releases/download/v1.3.0/qlang-aarch64-apple-darwin.tar.gz"
-      sha256 "08266ab0413760c5b40c9c864d72c62cdc7006d8eba898c1c52f640888c0dd28"
+      url "https://github.com/quenti77/qlang/releases/download/v1.3.1/qlang-aarch64-apple-darwin.tar.gz"
+      sha256 "aff0fda3b341ecb30d6e101fa2337ce5208ec2b25e94a319dd19ce6c6bb43745"
     end
     on_intel do
-      url "https://github.com/quenti77/qlang/releases/download/v1.3.0/qlang-x86_64-apple-darwin.tar.gz"
-      sha256 "73284a3edab3fb4dcc8869a24e8435a03f8e18c1797ad078bd4990901729679e"
+      url "https://github.com/quenti77/qlang/releases/download/v1.3.1/qlang-x86_64-apple-darwin.tar.gz"
+      sha256 "a74e46d651ffad21824e12e86f7390474e20e57475c05541ce52435c1a8a4e4e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quenti77/qlang/releases/download/v1.3.0/qlang-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e3ae2baf5a5ca6582b19d10579ce4a0540ebf9e0502f1e3b6a983c6ebefa994d"
+      url "https://github.com/quenti77/qlang/releases/download/v1.3.1/qlang-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e25cd17ea617e37e1acdfa99e3802a5069148f84c29a9cfd4a95b80b381f19bb"
     end
     on_intel do
-      url "https://github.com/quenti77/qlang/releases/download/v1.3.0/qlang-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a26014ecd9ae674fbd4505bf2a354d23c6df5580610bc8ec5aef67f276aea771"
+      url "https://github.com/quenti77/qlang/releases/download/v1.3.1/qlang-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "518ccfff18441c14acfcb99dfcd75dd10f36d2ff5262f9a9523404982092ac35"
     end
   end
 
